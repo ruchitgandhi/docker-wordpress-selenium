@@ -13,3 +13,9 @@ Framework to run Wordpress inside Docker and test it using docker-selenium
 
 5) If the wordpress site is up, go through the setup procedure of wordpress and bring the basic site up.
 6) Once the site is up, run "docker-compose run test" to run the test container. This container comes up and tests the docker wordpress installation using Selenium. It should print the Title of your website.
+
+## To make changes to test
+
+1) Bring the running containers down using "docker-compose down"
+2) Make changes to the selenium test file.
+3) Follow steps 2-6 from above.
